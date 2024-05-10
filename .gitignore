@@ -1,0 +1,11 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+/palmer-penguins/.ipynb_checkpoints/
+
+# Python bytecode files
+__pycache__/
+
+# Specific directories
+/palmers-penguins/data/
+*.csv
+*.joblib
