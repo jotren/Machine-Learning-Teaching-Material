@@ -117,6 +117,21 @@ $$
 \frac{\partial L}{\partial w} = (\hat{y} - y) \cdot \sigma(z) \cdot (1 - \sigma(z)) \cdot x
 $$
 
+This equation provides us with a measure how the loss changes with respect to the weights. Now neural networks will assume that each weight can be changed in isolation to affect the outcome, which is an assumption.
 
+### Gradient Descent Update Rule
 
+To update the weights using the gradient descent algorithm, we apply the following rule:
+
+$$
+w_{\text{new}} = w_{\text{old}} - \eta \frac{\partial L}{\partial w}
+$$
+
+Why This Minimizes the Loss:
+
+- __Gradient Direction__: The gradient points in the direction of the steepest ascent of the loss function. By moving in the opposite direction (i.e., subtracting the gradient), we move towards a local minimum of the loss function.
+
+- __Learning Rate__: The learning rate determines the step size. If η is too large, the algorithm may overshoot the minimum. If it’s too small, the algorithm will converge slowly. Proper tuning of η ensures efficient convergence.
+
+- __Convergence__: Over many iterations, the weights are adjusted in small steps to reduce the loss. With each update, the neural network's predictions become more accurate, and the loss decreases.
 
