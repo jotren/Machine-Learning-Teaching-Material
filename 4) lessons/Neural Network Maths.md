@@ -13,7 +13,7 @@ If unfamiliar with these please do some research.
 
 Neural Networks are designed like the brain with multiple nodes connected by neurons.  
 
-<img src="./images/image-2.png" alt="alt text" width="200"/> 
+<img src="./images/NN.png" alt="alt text" width="200"/> 
 
 
 ## Forward Propogation

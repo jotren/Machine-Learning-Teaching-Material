@@ -1,8 +1,23 @@
 # Transformers Encoder Maths
 
-The transformer architecture is what has allowed the jump in large language models. It is very important to understand the maths behind semantic space and context finding.
+The transformer architecture is what has allowed the jump in large language models. It is very important to understand the maths behind semantic space and context finding. If the word appe cppears a lot in a sentnce with the word phone, these two word vectors need to move closer to eachother.
+
+<img src="./images/Semantic Space.png" alt="alt text" width="400"/> 
+
+This is how encoders manage to capture context and complex relationships between words.
+
+In order to understand this, you'll need to have a knowledge of:
+
+- Matrices
+- Matrix Manipulations
+- Identity Matrices
+- Softmax Calculations
 
 ### Transformer Encoder Example with "phone," "apple," and "orange"
+
+The key thing to understand about transformers is that the encoder is moving words through semantic space. The "attention mechanism" essentially moves words closer together when they appear more frequently in the same sentence or context. Let's take the example of phone, apple and orange, apple has two different meanings depending on the context, how can we train a machine to understand this.
+
+1``
 
 We represent each word as a vector in the "fruitness" and "phoneness" space. Let's assume:
 
