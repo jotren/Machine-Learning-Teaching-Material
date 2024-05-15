@@ -6,6 +6,5 @@
 __pycache__/
 
 # Specific directories
-/palmers-penguins/data/
 *.csv
 *.joblib
