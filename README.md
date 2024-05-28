@@ -18,7 +18,7 @@ Test your Python skills with simple to complex problems to solidify your underst
 ### Classification
 Deepen your understanding of machine learning with classification challenges:
 
-- __Palmers Penguins__: Practise classification techniques on the Palmers Penguins dataset.
+- __Palmers Penguins__: Practise classification techniques on the Palmers Penguins dataset. https://github.com/jotren/Machine-Learning-Teaching-Material/tree/main/classification
 
 ### Time Series Analysis
 Explore the world of time series data with these focused challenges:
@@ -30,18 +30,21 @@ Explore the world of time series data with these focused challenges:
 Get hands-on experience with neural networks:
 
 - __Neural Networks__: Implement and experiment with basic neural network structures.
-- - **Neural Network Maths**: Explore the mathematical foundations of how neural networks are structured.
 
 
 ### Natural Language Processing (NLP)
 Dive into NLP with foundational challenges:
 
-- __Transformer Maths__: Understand and apply the mathematics behind the Transformer architecture used in modern NLP.
 
 ### Optimisation
 Explore advanced mathematical optimisation techniques:
 
 - __Bayes-Optimisation Maths__: Learn and apply Bayesian Optimisation methods.
+
+### Theory 
+
+- **Neural Network Maths**: Explore the mathematical foundations of how neural networks are structured. https://github.com/jotren/Machine-Learning-Teaching-Material/blob/main/lessons/Neural%20Network%20Maths.md
+- __Transformer Maths__: Understand and apply the mathematics behind the Transformer architecture used in modern NLP. https://github.com/jotren/Machine-Learning-Teaching-Material/blob/main/lessons/Transformer%20Encoder%20Maths.md
 
 
 
