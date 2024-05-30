@@ -334,3 +334,9 @@ $$
 1.96 & 0.26
 \end{bmatrix}
 $$
+
+### Neural Network
+
+These embeddings for each word will then be feed into a neural network. The neural network will take the sequence of words and then embeddings. The neural networks takes sequence of embeddings and uses complex linear transformations to understand context and predict the next items in the sequence more accurately.
+
+Attention helps because it allows the neural network to interpret which letters (or words) are in similar semantic spaces by focusing on the most relevant parts of the input. This enables the model to make better predictions based on context.
